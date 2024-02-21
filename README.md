@@ -14,4 +14,6 @@ This toolbox is designed for the collection and construction of datasets for the
 - **FOCUS Methodology**: Incorporates causal inference to enhance language model comprehension of evolving internet language.
 
 ## Coming Soon
+**The raw data *data/words_raw_Jan_2024.json* is now available.**
+
 The code for this toolbox is currently under development and will be released shortly. Stay tuned for updates and the official release.
