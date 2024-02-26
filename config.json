@@ -1,0 +1,5 @@
+{
+    "model_path": "meta-llama/Llama-2-7b-chat-hf",
+    "max_length": 512,
+    "temperature": 0.7
+}
