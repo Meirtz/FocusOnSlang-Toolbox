@@ -4,6 +4,11 @@
 
 # SLANG Benchmark and FOCUS Methodology Toolbox
 
+[![arXiv](https://img.shields.io/badge/arXiv-2401.12585-f9f107.svg)](https://arxiv.org/abs/2401.12585)
+![License](https://img.shields.io/badge/License-MIT-red)
+[![Page](https://img.shields.io/badge/Project%20Website-ADD8E6)](https://focus-on-slang.meirtz.com/)
+![Language](https://img.shields.io/badge/🐍%20Python%20-8A2BE2)
+
 ## Overview
 This toolbox is designed for the collection and construction of datasets for the SLANG benchmark, adeptly catering to the dynamic and multifaceted nature of internet language. It not only addresses slang but also encompasses a wide array of evolving online phenomena such as memes, viral phrases, and emerging linguistic concepts. This comprehensive approach ensures a robust understanding of the ever-changing landscape of internet communication. Additionally, the toolbox implements the FOCUS methodology, an innovative approach for deciphering linguistic shifts in online communication.
 
