@@ -13,7 +13,8 @@ This toolbox is designed for the collection and construction of datasets for the
 - **SLANG Method Implementation**: Tools to test and evaluate language models against the SLANG benchmark.
 - **FOCUS Methodology**: Incorporates causal inference to enhance language model comprehension of evolving internet language.
 
-## Coming Soon
 **The raw data *data/words_raw_Jan_2024.json* is now available.**
-
-The code for this toolbox is currently under development and will be released shortly. Stay tuned for updates and the official release.
+- [x] Jan 2024 dataset
+- [ ] Project wiki and tutorials
+- [ ] Feb 20244 dataset
+ 
