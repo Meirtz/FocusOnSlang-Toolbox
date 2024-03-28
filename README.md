@@ -21,5 +21,6 @@ This toolbox is designed for the collection and construction of datasets for the
 **The raw data *data/words_raw_Jan_2024.json* is now available.**
 - [x] Jan 2024 dataset
 - [ ] Project wiki and tutorials
-- [ ] Feb 20244 dataset
+- [x] Feb 2024 dataset
+- [ ] Mar 2024 dataset
  
