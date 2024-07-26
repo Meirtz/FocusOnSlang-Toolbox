@@ -4,7 +4,6 @@
 
 # SLANG Benchmark and FOCUS Methodology Toolbox
 
-[![arXiv](https://img.shields.io/badge/arXiv-2401.12585-f9f107.svg)](https://arxiv.org/abs/2401.12585)
 ![License](https://img.shields.io/badge/License-MIT-red)
 [![Page](https://img.shields.io/badge/Project%20Website-ADD8E6)](https://focus-on-slang.meirtz.com/)
 ![Language](https://img.shields.io/badge/🐍%20Python%20-8A2BE2)
