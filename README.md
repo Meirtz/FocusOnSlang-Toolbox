@@ -18,8 +18,87 @@ This toolbox is designed for the collection and construction of datasets for the
 - **FOCUS Methodology**: Incorporates causal inference to enhance language model comprehension of evolving internet language.
 
 **The raw data *data/words_raw_Feb_2024.json* is now available.**
-- [x] Jan 2024 dataset
-- [ ] Project wiki and tutorials
-- [x] Feb 2024 dataset
-- [ ] Mar 2024 dataset
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Meirtz/FocusOnSlang-Toolbox.git
+    cd FocusOnSlang-Toolbox
+    ```
+
+2. Set up a virtual environment and install dependencies:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+    pip install -r requirements.txt
+    ```
+
+    
+
+## Usage
+
+To run the main script, use the following command:
+
+```bash
+python run.py
+```
+
+Examples:
+```
+python run.py --data "data/words_transformed_all_fewshot_v2_all.json" --model_name "gpt-3.5-turbo-1106" --sample
+```
+
+
+### Parameters
+
+- `data\words_transformed_all_fewshot_v2_all.json`: Path to the input JSON file containing the slang terms.
+- `model_name='gpt-3.5-turbo-1106'`: The name of the LLM model to be used.
+- `sample_num="300:357"`: Range of samples to process.
+- `template_name='Direct'`: Template or method for processing the input data.
+
+## Configuration
+
+To change the configuration, edit the parameters in `run.py` or pass different arguments when calling the script.
+
+## Input Data Format
+
+The input JSON file should contain the slang terms in a specific format. Here’s an example:
+
+```json
+{
+    "slang_terms": [
+        "example_slang_1",
+        "example_slang_2",
+        ...
+    ]
+}
+```
+
+## Output
+
+The script processes the input data and prints the results to the console. The total cost of using the LLM is also displayed.
+
+## Cost Calculation
+
+The total cost is calculated based on the usage of the LLM model. The cost is printed at the end of the script execution.
+
+## Examples
+
+Here are some example commands and their expected outputs:
+
+```bash
+python run.py --data "data\words_transformed_all_fewshot_v2_all.json" --model_name "gpt-3.5-turbo-1106" --sample_num "300:357" --template_name "Direct"
+```
+
+## Contributing
+
+We welcome contributions! Please open an issue or submit a pull request with your improvements.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+```
+```
+
  
