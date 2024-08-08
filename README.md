@@ -83,13 +83,6 @@ The script processes the input data and prints the results to the console. The t
 
 The total cost is calculated based on the usage of the LLM model. The cost is printed at the end of the script execution.
 
-## Examples
-
-Here are some example commands and their expected outputs:
-
-```bash
-python run.py --data "data\words_transformed_all_fewshot_v2_all.json" --model_name "gpt-3.5-turbo-1106" --sample_num "300:357" --template_name "Direct"
-```
 
 ## Contributing
 
