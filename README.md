@@ -89,6 +89,22 @@ The total cost is calculated based on the usage of the LLM model. The cost is pr
 
 We welcome contributions! Please open an issue or submit a pull request with your improvements.
 
+## Citation
+
+If you use this toolbox for your research, please cite our paper:
+
+```bibtex
+@misc{mei2024slangnewconceptcomprehension,
+      title={SLANG: New Concept Comprehension of Large Language Models}, 
+      author={Lingrui Mei and Shenghua Liu and Yiwei Wang and Baolong Bi and Xueqi Cheng},
+      year={2024},
+      eprint={2401.12585},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2401.12585}, 
+}
+```
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
