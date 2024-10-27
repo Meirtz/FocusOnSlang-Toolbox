@@ -2,7 +2,7 @@
 
 ![logo](logo.png)
 
-# SLANG Benchmark and FOCUS Methodology Toolbox
+# [EMNLP 2024 Main] SLANG Benchmark and FOCUS Methodology Toolbox
 
 [![arXiv](https://img.shields.io/badge/arXiv-2401.12585-f9f107.svg)](https://arxiv.org/abs/2401.12585)
 ![License](https://img.shields.io/badge/License-MIT-red)
